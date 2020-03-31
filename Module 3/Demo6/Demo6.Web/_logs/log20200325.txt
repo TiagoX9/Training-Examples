@@ -1,0 +1,31 @@
+2020-03-25 00:18:29.832 +01:00 [INF] User profile is available. Using 'C:\Users\david\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-25 00:18:29.951 +01:00 [INF] Now listening on: https://localhost:5001
+2020-03-25 00:18:29.951 +01:00 [INF] Now listening on: http://localhost:5000
+2020-03-25 00:18:29.952 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-25 00:18:29.953 +01:00 [INF] Hosting environment: Development
+2020-03-25 00:18:29.953 +01:00 [INF] Content root path: D:\Davidson\OneDrive\Documents\_Work\Trainings\Module 3\Demo6\Demo6.Web
+2020-03-25 00:18:31.419 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-03-25 00:18:31.431 +01:00 [INF] Executing endpoint 'Demo6.Web.Controllers.HomeController.Index (Demo6.Web)'
+2020-03-25 00:18:31.451 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Demo6.Web.Controllers.HomeController (Demo6.Web).
+2020-03-25 00:18:31.454 +01:00 [WRN] Hello Index with Serilog!
+2020-03-25 00:18:31.464 +01:00 [INF] Executing ViewResult, running view Index.
+2020-03-25 00:18:31.506 +01:00 [INF] Executed ViewResult - view Index executed in 43.9542ms.
+2020-03-25 00:18:31.509 +01:00 [INF] Executed action Demo6.Web.Controllers.HomeController.Index (Demo6.Web) in 55.7101ms
+2020-03-25 00:18:31.509 +01:00 [INF] Executed endpoint 'Demo6.Web.Controllers.HomeController.Index (Demo6.Web)'
+2020-03-25 00:18:31.512 +01:00 [INF] Request finished in 94.5208ms 200 text/html; charset=utf-8
+2020-03-25 00:18:31.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-03-25 00:18:31.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2020-03-25 00:18:31.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2020-03-25 00:18:31.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2020-03-25 00:18:31.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2020-03-25 00:18:31.519 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2020-03-25 00:18:31.519 +01:00 [INF] The file /css/site.css was not modified
+2020-03-25 00:18:31.519 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2020-03-25 00:18:31.519 +01:00 [INF] The file /js/site.js was not modified
+2020-03-25 00:18:31.519 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2020-03-25 00:18:31.520 +01:00 [INF] Request finished in 4.613ms 304 application/javascript
+2020-03-25 00:18:31.520 +01:00 [INF] Request finished in 4.9069ms 304 text/css
+2020-03-25 00:18:31.521 +01:00 [INF] Request finished in 5.6615ms 304 text/css
+2020-03-25 00:18:31.522 +01:00 [INF] Request finished in 6.3139ms 304 application/javascript
+2020-03-25 00:18:31.523 +01:00 [INF] Request finished in 7.1693ms 304 application/javascript
+2020-03-25 00:18:41.300 +01:00 [INF] Application is shutting down...
