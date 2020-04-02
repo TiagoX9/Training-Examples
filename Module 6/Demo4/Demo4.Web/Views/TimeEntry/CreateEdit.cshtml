@@ -1,0 +1,14 @@
+﻿@model TimeEntryEditModel
+@* No asp-action since we want this form to be used by both Create and Edit *@
+<form asp-controller="TimeEntry" method="post">
+    <input asp-for="EmployeeId" type="hidden" />
+
+    <label asp-for="DateLogged"></label>
+    <input asp-for="DateLogged" />
+    <br />
+    <label asp-for="HoursWorked"></label>
+    <input asp-for="HoursWorked" />
+    <br />
+    <br />
+    <input type="submit" value="Save" />
+</form>

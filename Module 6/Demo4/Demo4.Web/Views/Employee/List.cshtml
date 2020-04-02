@@ -1,0 +1,35 @@
+﻿@model List<EmployeeViewModel>
+
+<a asp-controller="Employee" asp-action="Create">New employee</a>
+<br />
+
+@if (Model.Count > 0)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Full name
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName (@item.TotalWorkedHours)</td>
+                <td>
+                    <a asp-controller="TimeEntry" asp-action="Create" asp-route-id="@item.Id">Log time</a>
+                    |
+                    <a asp-controller="Employee" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    |
+                    <a asp-controller="Employee" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    @:No employee found
+}

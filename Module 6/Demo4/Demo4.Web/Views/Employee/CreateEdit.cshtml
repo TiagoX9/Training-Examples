@@ -1,0 +1,18 @@
+﻿@model EmployeeEditModel
+
+@* No asp-action since we want this form to be used by both Create and Edit *@
+<form asp-controller="Employee" method="post">
+    @if (Model.IsNew)
+    {
+        <input asp-for="Id" type="hidden" />
+    }
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+    <br />
+    <label asp-for="Surname"></label>
+    <input asp-for="Surname" />
+    <br />
+    <br />
+    <input type="submit" value="Save" />
+</form>
